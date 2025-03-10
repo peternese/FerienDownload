@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferien API Viewer</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Ferien nach Jahr <br>und Bundesland filtern</h2>
+    <h4 style="padding:none;margin-top:-15px;">(und vielleicht in den Handykalender anfügen?)</h4>
+
+    <!-- Dropdown zur Auswahl des Jahres -->
+    <label for="yearSelect">Wähle ein Jahr:</label><br>
+    <select id="yearSelect"></select><br>
+
+    <!-- Dropdown zur Auswahl des Bundeslandes -->
+    <label for="stateSelect">Wähle ein Bundesland:</label><br>
+    <select id="stateSelect"></select><br>
+
+    <button onclick="fetchHolidays()">Laden</button>
+    
+    <h3>Ergebnisse:</h3>
+    <ul id="holidayList"></ul>
+
+    <button onclick="addToCalendar()" id="calendarButton" style="display:none;">Zum iPhone-Kalender hinzufügen</button>
+
+    <script>
+    </script>
+
+</body>
+<footer>
+    by peternese
+</footer>
+</html>

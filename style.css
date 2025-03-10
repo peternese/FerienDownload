@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+html{
+    padding: 50px 0px;
+}
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+#yearSelect, #stateSelect {
+    margin: 10px 0px;
+}
+#holidayList {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    font-size: 8px;
+    max-height:150px;
+    overflow: scroll;
+    margin: 20px;
+}
+button{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+}
