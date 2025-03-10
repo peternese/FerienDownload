@@ -8,6 +8,7 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="card">
     <h2>Ferien nach Jahr <br>und Bundesland filtern</h2>
     <h4 style="padding:none;margin-top:-15px;">(und vielleicht in den Handykalender anfügen?)</h4>
 
@@ -21,14 +22,11 @@
 
     <button onclick="fetchHolidays()">Laden</button>
     
-    <h3>Ergebnisse:</h3>
+    <h3 id="holidayHead"></h3>
     <ul id="holidayList"></ul>
 
     <button onclick="addToCalendar()" id="calendarButton" style="display:none;">Zum iPhone-Kalender hinzufügen</button>
-
-    <script>
-    </script>
-
+    </div>
 </body>
 <footer>
     by peternese
