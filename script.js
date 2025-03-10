@@ -61,7 +61,7 @@
 
                 // Anzeige aktualisieren
                 let holidayHead = document.getElementById("holidayHead");
-                holidayHead.innerHTML = "Ferienzeiten";
+                holidayHead.innerHTML = "Ferienzeiten:";
                 let holidayList = document.getElementById("holidayList");
                 holidayList.innerHTML = ""; // Vorherige Einträge löschen
 
