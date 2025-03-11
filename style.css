@@ -3,14 +3,15 @@
     text-align: center;
 }
 html{
-    height: 100%;
     margin: 0;
+    height: 100%;
 }
 body {
     background-color: white;
     margin: 0;
     position: relative;
-    height: 100%;
+    min-height: fit-content;
+    height: 100%
 }
 #yearSelect, #stateSelect {
     margin: 10px 0px;
@@ -20,12 +21,12 @@ body {
     padding: 0;
     text-align: right;
     font-size: 9px;
-    max-height:150px;
+    max-height:100px;
     overflow: scroll;
     margin: 20px;
 }
 .nav{
-    height: auto;
+    min-height: fit-content;
     padding-top: 20px;
 }
 button{
@@ -54,14 +55,14 @@ footer {
     top: 0;
     right: 0;
     left: 0;
-    max-height: fit-content;
+    /* max-height: fit-content; */
     margin: 0px 20px;
     padding: 30px 10px;
     border-radius: 30px;
     max-width: 450px;
     border: solid 1px grey;
-    contain: content;
-    margin-bottom: 20px;
+    /* contain: content; */
+    margin-bottom: 100px;
     filter: drop-shadow(0px 10px 5px #aaaaaa);
 }
 
